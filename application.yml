@@ -1,1 +1,11 @@
+microservice:
+  microservice_1:
+    endpoints:
+      endpoint:
+        uri:http://authentication-service/checkCredentials/{userName}/{password}
 
+
+  microservice_2:
+    endpoints:
+      endpoint:
+        uri:http://authentication-service/saveDetails/{name}/{age}/{userName}/{password}
