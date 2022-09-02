@@ -1,1 +1,2 @@
-my.greeting: Greeting from microservice_2 Microservice specific file
+my:
+  greeting: Greeting from microservice_2 Microservice specific file
